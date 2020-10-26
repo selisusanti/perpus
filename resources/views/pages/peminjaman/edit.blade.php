@@ -10,7 +10,7 @@
     <body>
 
         <div class="jumbotron text-center">
-            <h1>Form Ubah Peminjaman</h1>
+            <h1>Form Ubah Peminjaman Buku</h1>
         </div>
         <div class="container">
 		    <div class="row">
