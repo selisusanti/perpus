@@ -25,6 +25,8 @@ class HomeController extends Controller
      *
      * @return \Illuminate\Contracts\Support\Renderable
      */
+
+     //index transaksi
     public function index()
     {
         $data = Peminjaman::select('peminjaman.id','id_buku','no_hp','nama_peminjam','tgl_peminjaman','tgl_kembali', 'total_hari', 'total_harga', 'book.nama_buku')
@@ -34,6 +36,7 @@ class HomeController extends Controller
         return view('home', compact('data'));
     }
 
+    //delete transaksi
     public function destroy($id)
     {     
         $store = Peminjaman::where('id', $id)->first();
