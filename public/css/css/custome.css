@@ -1,0 +1,52 @@
+.theme-orange .page-loader-wrapper {
+    background: #191F28;
+}
+
+span.reply, span.countreply, span.info, .breadcrumb-item.dirs {
+    cursor: pointer;
+}
+
+.select-template {
+    border: 1px solid #01B2C6;
+}
+
+.select-file {
+    background-color: #E9ECEF;
+    border-radius: 10px;
+}
+
+.box-file {
+    text-align: center;
+    min-height: 100px;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding: 0px;
+}
+
+.file > i {
+    font-size: 80px;
+    cursor: pointer;
+}
+
+label.error, label.error2 {
+    color: #DE4848;
+}
+
+span.badge {
+    display : -webkit-inline-box !important;
+}
+
+.auth-main::before {
+    background: transparent !important;
+}
+
+/* .auth-main::before{
+    content:'';
+    position:absolute;
+    left:0;
+    top:0;
+    width:400px;
+    height:100%;
+    z-index:-1;
+    background:#191f28
+} */
