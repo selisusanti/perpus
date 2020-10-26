@@ -18,9 +18,12 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+//delete dan update transaksi
 Route::get('/delete/{id}','HomeController@destroy')->name('delete-data');
 Route::post('/update/{id}','HomeController@update')->name('update-peminjaman');
 
+//data buku untuk crudnya
 Route::prefix('buku')->group(function () {
     Route::get('/', 'BookController@index');
     Route::get('/create',"BookController@create")->name('insert');
